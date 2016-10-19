@@ -1,0 +1,45 @@
+/* Formatação do menu Principal*/ 
+
+nav.menu-principal{
+	display: block; 
+}
+
+nav.menu-principal ul {
+	list-style: none;  
+	text-transform: uppercase;
+	position: absolute;
+	top: -11px;
+	left: 500px;
+}
+nav.menu-principal li{
+	display: inline;
+	background-color: silver;
+	padding: 5px;
+	margin: 5px;
+	transition: background-color 4s;
+	
+}
+
+nav.menu-principal li:hover{
+	background-color: #000000;
+	
+}
+
+nav.menu-principal a{
+	color: black;
+	text-decoration: none;
+}
+
+nav.menu-principal a:hover{
+	color:white;
+	
+}
+
+
+
+/*Formatação do logo*/
+
+.logo-site{
+	margin: 10px;
+	margin-top: 30px;	
+}
