@@ -1,0 +1,83 @@
+/*Formatação de toda a pagina*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"Agency FB", "arial" sans-serif;	
+}
+
+/* Formatação do menu Principal*/ 
+
+nav.menu-principal{
+		display: block; 
+		padding-bottom: -20px;
+		float: left;		
+}
+
+nav.menu-principal ul {
+	text-align: center;
+	list-style: none;  
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	left: 500px;
+}
+nav.menu-principal li{
+	display: inline;
+	background-color: silver;
+	padding: 5px;
+	margin: 5px;
+	transition: background-color 1s;
+}
+
+nav.menu-principal li:hover{
+	background-color: #000000;	
+}
+
+nav.menu-principal a{
+	color: black;
+	text-decoration: none;
+}
+
+nav.menu-principal a:hover{
+	color:white;	
+}
+
+
+
+/*Formatação do logo*/
+
+.logo-site{
+	margin: 10px;
+	margin-top: 8px;	
+	float: left;
+}
+
+
+
+
+/*Formatação dos textos da pagina sobre*/
+.txt-sobre{
+font-size: 17px;
+color: black;
+position: absolute;
+margin-top: 200px;
+padding-left: 20px; 
+text-align: center;
+}
+
+/*Formatação do H2 Sobre nós */
+
+h2.sobre-nos{
+	text-decoration: underline overline;
+	font-size: 40px;
+	color:#696969;
+}
+
+h2.sobre-nos:hover{
+	color: #008B45;
+	background: (bg-image.png);
+}
+
+
+
+

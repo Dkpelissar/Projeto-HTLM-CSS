@@ -1,0 +1,4 @@
+Criado atravéz da disciplina "Densevolvimento de Sistemas I" ministrada pelo professor
+Luis Andre Claudiano na Universidade Metodista de Piracicaba (UNIMEP), o O.S.ADMIN é
+um sistema de gerenciamento de ordens de serviços e vendas em geral.
+
